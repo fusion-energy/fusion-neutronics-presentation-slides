@@ -57,34 +57,20 @@ style: |
   }
 </style>
 
-# Neutronics Analysis of Fusion Systems
 
-![Neutron](images/cover.png)
-<!-- ![bottom-right](logo) -->
+Delayed responses
 
 ---
 
-
-# Why is neutronics useful
-
-
-![bg vertical height:15cm left:10%](images/why_neutronics.png)
-- **Radioactivity** - Neutrons activate material, making it radioactive leading to handling and waste storage requirements.​
-- **Hazardous** - Neutrons are Hazardous to health and shielded will be needed to protect the workforce.​
-- ***Produce fuel*** - Neutrons will be needed to convert lithium into tritium to fuel the reactor.​
-- ***Electricity*** - 80% of the energy release by each DT reaction is transferred to the neutron.​
-- ***Structural integrity*** - Neutrons cause damage to materials such as embrittlement, swelling, change conductivity …​
-- ***Diagnose*** - Neutrons are an important method of measuring a variety of plasma parameters (e.g. Q value).​
-
----
-
-# Topics Covered
-
-- Nuclear data
-- Prompt responses
-- Delayed responses
-- Simulation approaches
-
----
-
-
+- delayed response
+  - impact of burn up
+  - activation
+  - pulsed irradiation / constant irradiation
+  - shut down dose
+    - r2s
+    - d1s
+  - decay heat
+  - activity
+  - emission spectra
+  - waste
+  - activated coolant

@@ -57,34 +57,51 @@ style: |
   }
 </style>
 
-# Neutronics Analysis of Fusion Systems
+# Nuclear data
+ - reactions
+    - transmutation
+    - Q values
+    - thresholds
+    - Fusion fuels
 
-![Neutron](images/cover.png)
-<!-- ![bottom-right](logo) -->
-
+- nuclear data
+  - reactions
+    - isotope chart
+    - transmutation reactions
+    - Q values
+    - reaction rate equation
+  - cross sections
+     - microscopic
+     - macroscopic
+     - exfor data
+     - how cross sections are measured
+     - regions of plot
+     - multigroup / continuous energy
+     - group strucutres
+     - libraries (endf, tendl etc)
+  - scattering
+    -  energy angle plot
+    - energy energy plot
+    - equation for logarithmic energy loss
+    - pathlength
+    - thermailisation
+  - transmutation
+  - neutrons
+    - energy distribution from DT
+  - photons
+    - energy distribution from radioactive material
+  - electrons
+  - other particles
 ---
 
+# Reactions
 
-# Why is neutronics useful
-
-
-![bg vertical height:15cm left:10%](images/why_neutronics.png)
-- **Radioactivity** - Neutrons activate material, making it radioactive leading to handling and waste storage requirements.​
-- **Hazardous** - Neutrons are Hazardous to health and shielded will be needed to protect the workforce.​
-- ***Produce fuel*** - Neutrons will be needed to convert lithium into tritium to fuel the reactor.​
-- ***Electricity*** - 80% of the energy release by each DT reaction is transferred to the neutron.​
-- ***Structural integrity*** - Neutrons cause damage to materials such as embrittlement, swelling, change conductivity …​
-- ***Diagnose*** - Neutrons are an important method of measuring a variety of plasma parameters (e.g. Q value).​
+## Neutron induced reactions
+ - Over 800 reactions channels with unique reaction IDs (MT numbers)
+ - MT 16 is neutron multiplication (n,2n)
+ - MT 205 is tritium production multiplication (n,2n)
+ - MT 444 is damage energy
+ 
+ ### Be9(n,2n)2He4
 
 ---
-
-# Topics Covered
-
-- Nuclear data
-- Prompt responses
-- Delayed responses
-- Simulation approaches
-
----
-
-

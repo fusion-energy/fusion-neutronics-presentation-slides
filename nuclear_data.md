@@ -95,13 +95,60 @@ style: |
 ---
 
 # Reactions
+Nuclear reactions notation
+
+Incident nuclei ( incident projectile, resulting fragments) resulting nuclei
+Be9 ( n, 2n ) 2He4
+
+---
 
 ## Neutron induced reactions
- - Over 800 reactions channels with unique reaction IDs (MT numbers)
+
+ - 999 reactions channels with unique reaction IDs (MT numbers)
+ - MT 3 is elastic scattering (n,'n)
  - MT 16 is neutron multiplication (n,2n)
+ - MT 18 is neutron multiplication (n,f)
  - MT 205 is tritium production multiplication (n,2n)
  - MT 444 is damage energy
+
+ [Link to ENDF reaction numbers by NEA](https://www.oecd-nea.org/dbdata/data/manual-endf/endf102_MT.pdf)
  
+ ---
+
+Transmutation reactions
+
+Reactions that result in a change of the element
+
+Transmutation reaction
+(n,p)
+(n,alpha)
+Be9(n,2n)2He4
+
+Not Transmutation reaction
+(n, elastic)
+(n, inelastic)
+(n, heating)
+(n, gamma)
+
+---
+
+
+Q values
+
+Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
+
+| Month    | Savings |
+| -------- | ------- |
+| Be9(n,2n)  |     |
+| Li6(n,Xt) |      |
+| Li7(n,Xt)    |     |
+
+| Month    | Savings |Threshold reaction |
+| -------- | ------- |------- |
+| Be9(n,2n)  |     |    |
+| Li6(n,Xt) |      |    |
+| Li7(n,Xt)    |     |    |
+
  ### Be9(n,2n)2He4
 
 ---

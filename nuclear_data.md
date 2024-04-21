@@ -58,38 +58,35 @@ style: |
 </style>
 
 # Nuclear data
- - reactions
-    - transmutation
-    - Q values
-    - thresholds
-    - Fusion fuels
 
 - nuclear data
   - reactions
-    - isotope chart
+  <!-- - reactions groups like n, disappearance -->
+    - periodic table, isotope chart, 3d isotope chart
     - transmutation reactions
     - Q values
-    - reaction rate equation
+    - threshold reactions
+    - fusion fuels (DT,dd ect) reactions in terms of Q values
+    - energy distribution from DT
   - cross sections
      - microscopic
-     - macroscopic
      - exfor data
-     - how cross sections are measured
-     - regions of plot
-     - multigroup / continuous energy
-     - group strucutres
      - libraries (endf, tendl etc)
+     - regions of plot
+     <!-- - multigroup / continuous energy
+     - group strucutres -->
+     - reaction rate equation
+     - macroscopic
   - scattering
-    -  energy angle plot
+    - energy angle plot
     - energy energy plot
-    - equation for logarithmic energy loss
     - pathlength
     - thermailisation
-  - transmutation
-  - neutrons
-    - energy distribution from DT
-  - photons
-    - energy distribution from radioactive material
+    - equation for logarithmic energy loss
+  - transmutation to unstable
+    - decay data
+    - photons
+      - energy distribution from radioactive material
   - electrons
   - other particles
 ---
@@ -124,6 +121,7 @@ Transmutation reaction
 (n,alpha)
 Be9(n,2n)2He4
 
+
 Not Transmutation reaction
 (n, elastic)
 (n, inelastic)
@@ -137,18 +135,67 @@ Q values
 
 Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
 
-| Month    | Savings |
+| Reaction    | Energy release (MeV) |
 | -------- | ------- |
-| Be9(n,2n)  |     |
-| Li6(n,Xt) |      |
-| Li7(n,Xt)    |     |
+| Be9(n,2n)  |  -1.6   |
+| Pb208(n,2n)  |  -7.3   |
+| Li6(n,t) | 4.8 |
+| Li7(n,nt)    | -2.4    |
 
-| Month    | Savings |Threshold reaction |
-| -------- | ------- |------- |
-| Be9(n,2n)  |     |    |
-| Li6(n,Xt) |      |    |
-| Li7(n,Xt)    |     |    |
-
- ### Be9(n,2n)2He4
 
 ---
+
+Q values
+
+| Reaction    | Energy release |Threshold reaction |
+| -------- | ------- |------- |
+| Be9(n,2n)  |   -1.6    |  Yes  |
+| Pb208(n,2n)  |  -7.3   | Yes |
+| Li6(n,t) | 4.8      |  No  |
+| Li7(n,nt)    | -2.4     | Yes   |
+
+
+
+---
+
+Fusion fuels
+todo
+Q values of reactions
+all treesholds
+ plot cross sections vs energy
+
+---
+Microscopic
+Cross section vs energy
+
+todo plot cross sections vs energy
+---
+
+Reaction rate equation
+
+---
+
+Macroscopic cross section
+
+lithium with density 
+be with density and lead with density
+
+---
+
+regions of plot
+
+Reactions often have characterisi
+ resonance (resolved and unresolved)
+
+
+---
+
+Exfor data
+
+slide from neutronics workshop
+
+---
+
+Nucler data libraries
+
+ endf, tendl etc

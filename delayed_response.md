@@ -63,14 +63,25 @@ Delayed responses
 ---
 
 - delayed response
-  - impact of burn up
   - activation
-  - pulsed irradiation / constant irradiation
-  - shut down dose
-    - r2s
-    - d1s
-  - decay heat
-  - activity
+  - activity vs time (shark fin)
   - emission spectra
-  - waste
+    - shut down dose
+      - r2s
+      - d1s
+    - waste
+  - decay heat vs time
+    - analysis needed to life or cool components
   - activated coolant
+  - impact of burn up
+    - TBR
+    - shielding
+  - pulsed irradiation / constant irradiation
+
+---
+
+# Activation of materials
+
+Neutron induced reactions lead to unstable radioactive products.
+
+<!-- slide from neutronics workshop shark fin -->

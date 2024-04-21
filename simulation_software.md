@@ -63,7 +63,7 @@ style: |
 - Radiation transport
   - Monte Carlo Simulation Codes
   - Deterministic Simulation Codes
-
+- Geometry conversion software
 
 ---
 
@@ -91,12 +91,12 @@ https://www.sciencedirect.com/science/article/abs/pii/S0920379617305331
 
 # Inventory codes
 
-origen
-fispact
+OpenMC
 ALARA
 aburn 
-OpenMC
 Serpent
+origen
+fispact
 
 ---
 
@@ -120,14 +120,14 @@ Boltzman transport equation
 
 ---
 
-# Monte Carlon Simulations approach
+# Monte Carlo Simulations approach
 
 12 slides available
 
 
 ---
 
-# Monte Carlon Simulations
+# Monte Carlo Simulations
 
 - OpenMC
 - MCNP
@@ -167,16 +167,26 @@ Boltzman transport equation
 
 ---
 
-# Varience reduction generators
+# Variance reduction generators
 
 CADIS
 ADVANTG
 Random Ray
+Magic method
 
 ---
 
 # Geometry conversion
 
-include mermaid diagram of geometry workflows
-DAGMC
-GeoUned / McCAD / TopMC (MCAM)
+Include mermaid diagram of geometry workflows
+
+CAD to DAGMC convertors
+  - cad-to-dagmc
+  - cad-to-openmc
+  - stellermesh
+  - Cubit
+
+CAD to CSG convertors
+  - GeoUned
+  - McCAD
+  - TopMC (previously SuperMC / MCAM)

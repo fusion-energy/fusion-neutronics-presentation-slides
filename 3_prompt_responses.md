@@ -81,10 +81,11 @@ Prompt responses
 # Neutron wall loading
 
 - Energy carried by uncollided source neutrons incident on a unit area of first wall per unit time
-- Units typically used MW/m2
+- Units typically used $MW m^{-2}$ 
 - Useful for estimating neutronics results and scaling or comparing results
 - For simple source distributions and geometry, can calculate analytically
 - Complex source distributions or geometries require more sophisticated methods (e.g Monte Carlo)
+![](scripts/wall-loading.png)
 
 ---
 

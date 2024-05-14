@@ -174,3 +174,15 @@ TODO plot graph of dpa vs depth
 TODO plot graph of he production vs depth
 TODO plot ratio of dpa to He production
 TODO these different materials SiC, steel, Vandium alloy, eurofer
+
+# Instantaneous Dose
+
+Different types of dose, absorbed, equivalent and effective.
+Effective dose is typically used for dose maps.
+Dose coefficients units of $Sv.cm^2$
+neutron flux ($particles.cm{^-2}s^{-1}$)
+resulting dose in Sv per second
+
+TODO plot dose maps for different directions
+TODO plot dose maps for different libraries
+TODO plot dose maps for different particles (photons and neutrons)

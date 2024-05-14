@@ -67,11 +67,9 @@ Delayed responses
   - activity vs time (shark fin)
   - emission spectra
     - shut down dose
-      - r2s
-      - d1s
     - waste
   - decay heat vs time
-    - analysis needed to life or cool components
+    - analysis needed to lift or cool components
   - activated coolant
   - impact of burn up
     - TBR
@@ -84,4 +82,28 @@ Delayed responses
 
 Neutron induced reactions lead to unstable radioactive products.
 
+<!-- slide from neutronics workshop isotope chart with arrows -->
+
+# Build up, saturation and decay
+
 <!-- slide from neutronics workshop shark fin -->
+
+# Emission during decay
+
+<!-- plot gamma emission spectra as a function of time -->
+
+# Shut down dose rate
+
+heating effect on components
+resulting in reduced strength during lifts
+
+# Decay heat vs time
+
+cooling components analysis
+
+# Activated coolant
+
+
+# Burn up
+
+# Pulsed irradiation and steady state

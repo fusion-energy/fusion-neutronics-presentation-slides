@@ -71,6 +71,12 @@ style: |
 
 Bateman equation
 
+Loss terms
+
+Production terms
+$\lambda$
+---
+
 # Categories of Inventory codes
 
     - solving the matrix exponential

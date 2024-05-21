@@ -9,7 +9,7 @@ Including the following topics
 
 Made using [Marp](https://marp.app/) extended MarkDown to create a version control friendly slide deck.
 
-Originally made for a 90 minute presentation but could be reorganized for different formats as it is easy to combine different slides to make a new slide deck.
+Originally made for a 60 minute presentation but could be reorganized for different formats as it is easy to combine different slides to make a new slide deck.
 
 Most images and plots using in the slides have been produced for this presentation and scripts for reproducing them are included in the [scripts folder](https://github.com/fusion-energy/fusion-neutronics-presentation-slides)
 

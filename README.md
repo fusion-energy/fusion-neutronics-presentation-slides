@@ -20,7 +20,7 @@ Distributed under a [permissive MIT open source license](https://github.com/fusi
 
 # View the sides
 
-The slides are available in [html format here](https://fusion-energy.github.io/fusion-neutronics-presentation-slides/index.html)
+The slides are available in html format 👉 [here](https://fusion-energy.github.io/fusion-neutronics-presentation-slides/index.html) 👈
  <!-- and [pdf format here](https://github.com/fusion-energy/fusion-neutronics-presentation-slides/files/14224293/slides.pdf) -->
 
 Every time the main branch of the repository is updated the slides are automatically rebuilt and uploaded as html to the GitHub pages website

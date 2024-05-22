@@ -58,7 +58,7 @@ style: |
 </style>
 
 
-Delayed responses
+# Delayed response
 
 ---
 
@@ -107,3 +107,5 @@ cooling components analysis
 # Burn up
 
 # Pulsed irradiation and steady state
+
+---

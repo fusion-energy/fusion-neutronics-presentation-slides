@@ -81,7 +81,7 @@ style: |
     - energy angle plot
     - energy energy plot
     - pathlength
-    - thermailisation
+    - thermalisation
     - equation for logarithmic energy loss
   - transmutation to unstable
     - decay data

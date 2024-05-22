@@ -7,9 +7,12 @@ Including the following topics
 - Delayed responses
 - Simulation approaches
 
+
+This presentation delves into fusion neutronics, beginning with an overview of nuclear data fundamentals such as cross sections, threshold reactions, and thermalization, which are crucial for understanding neutron and photon interactions with matter. It then explores prompt neutron interactions, covering heat deposition, transmutations, and tritium production. The presentation moves on to discuss delayed neutron responses, including decay heat and delayed gamma emission. It concludes with a summary of the simulation landscape, providing an overview of the software and methodologies for simulating both prompt and delayed responses. Attendees should develop a deeper understanding of how neutrons and photons are critical in the design of fusion reactors.
+
 Made using [Marp](https://marp.app/) extended MarkDown to create a version control friendly slide deck.
 
-Originally made for a 60 minute presentation but could be reorganized for different formats as it is easy to combine different slides to make a new slide deck.
+Originally made for a 60 minute presentation but could be reorganized for different formats as it is easy to combine different slides to make new slide decks.
 
 Most images and plots using in the slides have been produced for this presentation and scripts for reproducing them are included in the [scripts folder](https://github.com/fusion-energy/fusion-neutronics-presentation-slides)
 

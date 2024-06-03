@@ -97,12 +97,14 @@ https://www.sciencedirect.com/science/article/abs/pii/S0920379617305331
 
 # Inventory codes
 
-OpenMC
+ACAB
 ALARA
-aburn 
+Aburn 
+OpenMC
+Origen
 Serpent
-origen
-fispact
+Fispact
+Fornax
 
 ---
 
@@ -135,13 +137,13 @@ Boltzman transport equation
 
 # Monte Carlo Simulations
 
-- OpenMC
-- MCNP
-- TRIPOLI
-- Serpent
 - FLUKA
 - GEANT
+- MCNP
+- OpenMC
+- Serpent
 - TopMC
+- TRIPOLI
 
 ---
 
@@ -166,19 +168,19 @@ Boltzman transport equation
 
 # Deterministic Simulation Codes
 
-- PARTISN 
-- OpenMOC
 - ATTILA 
 - Denovo 
+- OpenMOC
+- PARTISN 
 
 ---
 
 # Variance reduction generators
 
-CADIS
 ADVANTG
-Random Ray
+CADIS
 Magic method
+Random Ray
 
 ---
 
@@ -195,7 +197,7 @@ CAD to DAGMC convertors
 CAD to CSG convertors
   - GeoUned
   - McCAD
-  - TopMC (previously SuperMC / MCAM)
+  - TopMC
 
 
 # Shut down dose rate
@@ -204,5 +206,6 @@ Inventory simulations
 Transport simulation
       - r2s
       - d1s
+Pyne, Silverfir
   
 ---

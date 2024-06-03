@@ -175,6 +175,8 @@ TODO plot graph of he production vs depth
 TODO plot ratio of dpa to He production
 TODO these different materials SiC, steel, Vandium alloy, eurofer
 
+---
+
 # Instantaneous Dose
 
 Different types of dose, absorbed, equivalent and effective.

@@ -82,29 +82,78 @@ style: |
 
 Neutron induced reactions lead to unstable radioactive products.
 
+<h1>https://www.w3schools.com/graphics/svg_line.asp</h1>
+<html>
+<body>
+
+<div style="width: 100%; text-align: center">
+  <rect width="100" height="100" x="0" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="100" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="200" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+
+  <rect width="100" height="100" x="0" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="100" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="200" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+
+  <rect width="100" height="100" x="0" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="100" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  <rect width="100" height="100" x="200" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
+  
+  <text x="5" y="15" fill="red">I love SVG!</text>
+
+ <line x1="50" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+  <line x1="150" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+ <line x1="250" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+
+ 
+ <line x1="50" y1="150" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+ <line x1="50" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+
+  <line x1="250" y1="150" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+ <line x1="250" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+ <line x1="150" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
+
+</div>
+ 
+</body>
+</html>
+
 <!-- slide from neutronics workshop isotope chart with arrows -->
+
+---
 
 # Build up, saturation and decay
 
 <!-- slide from neutronics workshop shark fin -->
 
+---
+
 # Emission during decay
 
 <!-- plot gamma emission spectra as a function of time -->
+
+---
 
 # Shut down dose rate
 
 heating effect on components
 resulting in reduced strength during lifts
 
+---
+
 # Decay heat vs time
 
 cooling components analysis
 
+---
+
 # Activated coolant
 
+---
 
 # Burn up
+
+---
 
 # Pulsed irradiation and steady state
 

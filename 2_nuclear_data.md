@@ -112,42 +112,30 @@ Be9 ( n, 2n ) 2He4
  
  ---
 
-Transmutation reactions
+## Transmutation reactions
 
 Reactions that result in a change of the element
 
-Transmutation reaction
+Transmutation
 (n,p)
 (n,alpha)
 Be9(n,2n)2He4
 
 
-Not Transmutation reaction
+No transmutation
 (n, elastic)
 (n, inelastic)
 (n, heating)
 (n, gamma)
 
+
 ---
 
-
-Q values
+## Q values
 
 Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
 
-| Reaction    | Energy release (MeV) |
-| -------- | ------- |
-| Be9(n,2n)  |  -1.6   |
-| Pb208(n,2n)  |  -7.3   |
-| Li6(n,t) | 4.8 |
-| Li7(n,nt)    | -2.4    |
-
-
----
-
-Q values
-
-| Reaction    | Energy release |Threshold reaction |
+| Reaction    | Energy release (MeV) |Threshold reaction |
 | -------- | ------- |------- |
 | Be9(n,2n)  |   -1.6    |  Yes  |
 | Pb208(n,2n)  |  -7.3   | Yes |
@@ -158,24 +146,30 @@ Q values
 
 ---
 
-Fusion fuels
-todo
+## Fusion fuels
+
+
 Q values of reactions
-all treesholds
+all thresholds
  plot cross sections vs energy
 
 ---
-Microscopic
+
+## Microscopic
+
 Cross section vs energy
 
-todo plot cross sections vs energy
----
-
-Reaction rate equation
+todo plot cross sections vs energy (Li6, Li7, Be9)
 
 ---
 
-Macroscopic cross section
+## Reaction rate equation
+
+RR = density X 
+
+---
+
+## Macroscopic cross section
 
 lithium with density 
 be with density and lead with density
@@ -184,19 +178,22 @@ be with density and lead with density
 
 regions of plot
 
-Reactions often have characterisi
+Reactions often have characteristics
  resonance (resolved and unresolved)
+ 1/v section
+ thresholds
+ scattering
 
 
 ---
 
-Exfor data
+## Exfor data
 
 slide from neutronics workshop
 
 ---
 
-Nucler data libraries
+## Nucler data libraries
 
  endf, tendl etc
 

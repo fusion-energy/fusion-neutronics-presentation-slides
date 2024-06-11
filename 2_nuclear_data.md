@@ -73,8 +73,8 @@ style: |
      - exfor data
      - libraries (endf, tendl etc)
      - regions of plot
-     <!-- - multigroup / continuous energy
-     - group strucutres -->
+     - multigroup / continuous energy
+     - group structures
      - reaction rate equation
      - macroscopic
   - scattering
@@ -95,7 +95,21 @@ style: |
 Nuclear reactions notation
 
 Incident nuclei ( incident projectile, resulting fragments) resulting nuclei
-Be9 ( n, 2n ) 2He4
+<html>
+  <body>
+    <svg height="250" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <text x="40%" y="50" fill="red" font-size="35">Be9(n,2n)2He4</text>
+      <line x1="40%" y1="60" x2="20%" y2="200" style="stroke:red;stroke-width:2" />
+      <line x1="47%" y1="60" x2="40%" y2="200" style="stroke:red;stroke-width:2" />
+      <line x1="50%" y1="60" x2="66%" y2="200" style="stroke:red;stroke-width:2" />
+      <line x1="60%" y1="60" x2="85%" y2="200" style="stroke:red;stroke-width:2" />
+      <text x="15%" y="230" fill="red" font-size="35">Target</text>
+      <text x="35%" y="230" fill="red" font-size="35">Projectile</text>
+      <text x="60%" y="230" fill="red" font-size="35">Product</text>
+      <text x="80%" y="230" fill="red" font-size="35">Product</text>
+    </svg> 
+  </body>
+</html>
 
 ---
 
@@ -105,7 +119,7 @@ Be9 ( n, 2n ) 2He4
  - MT 3 is elastic scattering (n,'n)
  - MT 16 is neutron multiplication (n,2n)
  - MT 18 is neutron multiplication (n,f)
- - MT 205 is tritium production multiplication (n,2n)
+ - MT 205 is tritium production (n,Xt) where X is a wild card
  - MT 444 is damage energy
 
  [Link to ENDF reaction numbers by NEA](https://www.oecd-nea.org/dbdata/data/manual-endf/endf102_MT.pdf)
@@ -116,13 +130,14 @@ Be9 ( n, 2n ) 2He4
 
 Reactions that result in a change of the element
 
-Transmutation
+### Transmutation
 (n,p)
 (n,alpha)
 Be9(n,2n)2He4
+(n,fission)
 
 
-No transmutation
+###  No transmutation
 (n, elastic)
 (n, inelastic)
 (n, heating)
@@ -142,16 +157,14 @@ Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
 | Li6(n,t) | 4.8      |  No  |
 | Li7(n,nt)    | -2.4     | Yes   |
 
-
-
 ---
 
 ## Fusion fuels
 
 
-Q values of reactions
-all thresholds
- plot cross sections vs energy
+Q values of fusion fuel reactions
+
+Plot cross sections vs energy
 
 ---
 

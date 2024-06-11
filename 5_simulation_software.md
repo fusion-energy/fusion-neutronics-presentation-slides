@@ -59,7 +59,7 @@ style: |
 
 # Overview of neutronics simulation software
 
-- Inventory code
+- Inventory codes
 - Radiation transport
   - Monte Carlo Simulation Codes
   - Deterministic Simulation Codes
@@ -97,14 +97,16 @@ https://www.sciencedirect.com/science/article/abs/pii/S0920379617305331
 
 # Inventory codes
 
-ACAB
-ALARA
-Aburn 
-OpenMC
-Origen
-Serpent
-Fispact
-Fornax
+| Name of software | Group / community / country | 
+|  ----- | -----| 
+| ACAB | UNED, Spain | 
+| ALARA | Wisconsin, US | 
+| Aburn | North China Electrical Power | 
+| OpenMC | MIT, ANL and open source community | 
+| Origen | LANL, US | 
+| Serpent | VTT, Finland | 
+| Fispact | CCFE / UKAEA | 
+| Fornax | Silver Fir Software, US | 
 
 ---
 
@@ -123,8 +125,6 @@ Boltzman transport equation
   - Track individual particle histories through phase space
   - Random sampling of particle behavior at each event
   - Accumulate contributions to the mean behavior from each history
-- Varience reduction generators
-- Geometry conversion
 
 ---
 
@@ -137,13 +137,15 @@ Boltzman transport equation
 
 # Monte Carlo Simulations
 
-- FLUKA
-- GEANT
-- MCNP
-- OpenMC
-- Serpent
-- TopMC
-- TRIPOLI
+| Name of software | Group / community / country | 
+|  ----- | -----| 
+| FLUKA | CERN |
+| GEANT | CERN |
+| MCNP | LANL | 
+| OpenMC | MIT, ANL and open source community
+| Serpent | VTT, Finland
+| TopMC | China
+| TRIPOLI | France
 
 ---
 
@@ -168,6 +170,8 @@ Boltzman transport equation
 
 # Deterministic Simulation Codes
 
+| Name of software | Group / community / country | 
+|  ----- | -----| 
 - ATTILA 
 - Denovo 
 - OpenMOC
@@ -177,10 +181,12 @@ Boltzman transport equation
 
 # Variance reduction generators
 
-ADVANTG
-CADIS
-Magic method
-Random Ray
+| Name of software | Group / community / country | 
+|  ----- | -----| 
+| ADVANTG
+| CADIS
+| Magic method
+| Random Ray
 
 ---
 
@@ -209,3 +215,14 @@ Transport simulation
 Pyne, Silverfir
   
 ---
+
+
+Software distirbution
+
+Some codes used in neutronics are controlled codes under export control
+
+Distribution in the US by RSICC and in the EU by the NEA databank.
+
+[RSICC](http://rsicc.ornl.gov/Default.aspx)
+
+[NEA databank](https://www.oecd-nea.org/dbcps/)

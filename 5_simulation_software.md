@@ -142,10 +142,11 @@ Boltzman transport equation
 | FLUKA | CERN |
 | GEANT | CERN |
 | MCNP | LANL | 
-| OpenMC | MIT, ANL and open source community
-| Serpent | VTT, Finland
-| TopMC | China
-| TRIPOLI | France
+| OpenMC | MIT, ANL and open source community |
+| Serpent | VTT, Finland |
+| TopMC | China |
+| TRIPOLI | France |
+| SCONE | Cambridge UK |
 
 ---
 
@@ -192,11 +193,19 @@ Boltzman transport equation
 
 # Geometry conversion
 
-Include mermaid diagram of geometry workflows
+![mermaid](figs/cad-toneutronics-routes.png)
+
+[Link to flowchat](https://www.mermaidchart.com/raw/bfea01f7-56e6-4780-9687-0a6c99e58b74?theme=light&version=v0.1&format=svg)
+
+---
+
+# Geometry conversion
+
 
 CAD to DAGMC convertors
   - cad-to-dagmc
   - cad-to-openmc
+  - stl-to-dagmc
   - stellermesh
   - Cubit
 
@@ -205,24 +214,32 @@ CAD to CSG convertors
   - McCAD
   - TopMC
 
+---
 
 # Shut down dose rate
 
 Inventory simulations
 Transport simulation
-      - r2s
-      - d1s
+  - r2s
+  - d1s
 Pyne, Silverfir
+OpenMC
   
 ---
 
 
-Software distirbution
+# Software distribution
 
 Some codes used in neutronics are controlled codes under export control
 
 Distribution in the US by RSICC and in the EU by the NEA databank.
 
+
+
+![RSICC](figs/rsicc.png)
 [RSICC](http://rsicc.ornl.gov/Default.aspx)
 
+![RSICC](figs/nea.png)
 [NEA databank](https://www.oecd-nea.org/dbcps/)
+
+---

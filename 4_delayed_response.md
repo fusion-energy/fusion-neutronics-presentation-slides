@@ -136,7 +136,83 @@ Neutron induced reactions lead to unstable radioactive products.
 
 # Build up, saturation and decay
 
-<!-- slide from neutronics workshop shark fin -->
+---
+
+# Activation reactions
+
+![bg 50%](images/reaction-directions.png)
+
+---
+
+# Activation pathways
+
+![width:800px](images/activation-directions-fe56.png)
+
+---
+# Activation products
+
+
+<div class="columns">
+<div>
+
+- High energy neutron activation
+![](images/isotope_chart_high_activation.png)
+
+</div>
+<div>
+
+- Low energy neutron activation
+![](images/isotope_chart_low_activation.png)
+
+</div>
+<div>
+
+---
+
+
+# Activation products from fission
+
+- Fission of large atoms (e.g. U235)
+- Results in two fission products far from stability
+
+![bg 60%](images/isotope_chart_fission_activation.png)
+
+---
+
+# Build up and saturation
+
+<div class="columns">
+<div>
+
+<span style="color:green;">
+
+- New isotopes created during irradiation
+
+</span>
+
+<span style="color:orange;">
+
+- Radioactive isotopes decay and will eventually reach a point where decay rate is equal to activation rate.
+
+</span>
+
+<span style="color:red;">
+
+- Decay is more noticeable once the plasma is shutdown.
+
+</span>
+
+- The activity is related to the irradiation time and the nuclide half life.
+
+</div>
+<div>
+
+
+![height:550px](images/activation-cooldown.png)
+
+</div>
+<div>
+
 
 ---
 

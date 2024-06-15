@@ -189,7 +189,7 @@ Mass and Binding energy converted to kinetic energy
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-![](figs/fusion-cross-sections.png)
+![](images/fusion-cross-sections.png)
 
 </div>
 <div>
@@ -268,7 +268,7 @@ Typically the experimental data is then interpreted to create evaluation librari
 </div>
 <div>
 
-[![](figs/exfor_be_n_2n.png)](https://nds.iaea.org/dataexplorer/)
+[![](images/exfor_be_n_2n.png)](https://nds.iaea.org/dataexplorer/)
 
 Source [IAEA nuclear data services](https://nds.iaea.org/dataexplorer/?target_elem=Au&target_mass=197&reaction=n%2Cg)
 

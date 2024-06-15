@@ -59,39 +59,47 @@ style: |
 
 # Nuclear data
 
-- nuclear data
+<div class="columns"  style="font-size: 30px;">
+<div>
+
   - reactions
-  <!-- - reactions groups like n, disappearance -->
-    - periodic table, isotope chart, 3d isotope chart
-    - transmutation reactions
-    - Q values
-    - threshold reactions
-    - fusion fuels (DT,dd ect) reactions in terms of Q values
-    - energy distribution from DT
-  - cross sections
-     - microscopic
-     - exfor data
-     - libraries (endf, tendl etc)
-     - regions of plot
-     - multigroup / continuous energy
-     - group structures
-     - reaction rate equation
-     - macroscopic
-  - scattering
-    - energy angle plot
-    - energy energy plot
-    - pathlength
-    - thermalisation
-    - equation for logarithmic energy loss
-  - transmutation to unstable
-    - decay data
-    - photons
-      - energy distribution from radioactive material
-  - electrons
-  - other particles
+  - Isotope chart
+  - transmutation reactions
+  - Q values
+  - threshold reactions
+  - fusion fuels (DT,DD ...)
+  - energy distribution from DT
+  - microscopic cross sections
+  - experimental data
+  - libraries (ENDF, TENDL, FENDL ...)
+</div>
+<div>
+
+  - cross section regions
+  - multigroup / continuous energy
+  - group structures
+  - reaction rate equation
+  - macroscopic cross sections
+  - scattering / thermalisation
+  - decay data
+  - photons
+  - energy distribution from radioactive material
+
+  <!-- - energy angle plot
+  - energy energy plot
+  - pathlength
+  - equation for logarithmic energy loss
+  - transmutation to unstable -->
+  <!-- - electrons
+  - other particles -->
+
+</div>
+<div>
+
 ---
 
 # Reactions
+
 Nuclear reactions notation
 
 Incident nuclei ( incident projectile, resulting fragments) resulting nuclei
@@ -128,21 +136,36 @@ Incident nuclei ( incident projectile, resulting fragments) resulting nuclei
 
 ## Transmutation reactions
 
-Reactions that result in a change of the element
+Reactions that result in a change of the isotope
 
-### Transmutation
-(n,p)
-(n,alpha)
-Be9(n,2n)2He4
-(n,fission)
-
+<div class="columns3"  style="font-size: 30px;">
+<div>
 
 ###  No transmutation
 (n, elastic)
 (n, inelastic)
 (n, heating)
-(n, gamma)
 
+</div>
+<div>
+
+### Element transmutation
+(n,p)
+(n,alpha)
+(n,fission)
+Be9(n,2n)2He4
+
+
+</div>
+<div>
+
+### Isotope transmutation
+
+(n, gamma)
+Pb208(n,2n)Pb207
+
+</div>
+<div>
 
 ---
 
@@ -152,19 +175,50 @@ Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
 
 | Reaction    | Energy release (MeV) |Threshold reaction |
 | -------- | ------- |------- |
-| Be9(n,2n)  |   -1.6    |  Yes  |
-| Pb208(n,2n)  |  -7.3   | Yes |
-| Li6(n,t) | 4.8      |  No  |
-| Li7(n,nt)    | -2.4     | Yes   |
+| Be9(n,2n)   | -1.6   | Yes  |
+| Pb208(n,2n) | -7.3   | Yes  |
+| Li6(n,t)    |  4.8   | No   |
+| Li7(n,nt)   | -2.4   | Yes  |
+
+Mass and Binding energy converted to kinetic energy
 
 ---
 
 ## Fusion fuels
 
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+![](figs/fusion-cross-sections.png)
+
+</div>
+<div>
+
 
 Q values of fusion fuel reactions
 
-Plot cross sections vs energy
+| Reaction  | Energy release (MeV) |
+| --------- | ------- |
+| D + T -> He$^{4}$ + n  |  17.6      |
+| D + D -> He$^{3}$+n |        |
+| D + D -> T + p |        |
+| D + He$^{3}$->He$^{4}$+p | 18.3  *     |
+
+* No neutron emitted
+
+---
+
+## Aneutronic Fusion fuels 
+
+| Reaction  | Energy release (MeV) |
+| --------- | ------- |
+| D + Li$^{6}$ -> 2He$^{4}$ | 22.4       |
+| P + Li$^{6}$ -> He$^{4}$ + He$^{3}$    | 4.0       |
+| He$^{3}$ + Li$^{6}$ -> He$^{4}$ + p  | 16.9       |
+| He$^{3}$ + He$^{3}$ -> He$^{4}$ + 2p  | 12.86       |
+| p + Li$^{7}$ -> 2He$^{4}$ | 17.2       |
+| p -> B$^{11}$ -> 3He$^{4}$ | 8.7        |
+| p -> N$^{15}$ -> C$^{12}$ + He$^{4}$ |      5.0  |
 
 ---
 
@@ -200,14 +254,40 @@ Reactions often have characteristics
 
 ---
 
-## Exfor data
+# Experimental data
 
-slide from neutronics workshop
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+Availability of experimental data varies for different reactions and different isotopes.
+
+Typically the experimental data is then interpreted to create evaluation libraries, such as ENDF, JEFF, JENDL, CENDL.
+
+
+
+</div>
+<div>
+
+[![](figs/exfor_be_n_2n.png)](https://nds.iaea.org/dataexplorer/)
+
+Source [IAEA nuclear data services](https://nds.iaea.org/dataexplorer/?target_elem=Au&target_mass=197&reaction=n%2Cg)
+
+</div>
+<div>
 
 ---
 
 ## Nucler data libraries
 
- endf, tendl etc
+There are several groups that produce and distribute nuclear data
+
+- ENDF/B-VIII.0
+- TENDL 2023
+- FENDL
+- JEFF
+- JENDL
+- CENDL
+
+Others
 
 ---

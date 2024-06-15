@@ -60,21 +60,24 @@ style: |
 
 # Prompt responses
 
----
+<div class="columns"  style="font-size: 30px;">
+<div>
 
-- prompt responses
   - neutron wall loading
   - heating
   - gamma production
-  - damage
-    - dpa
-    - gas production
-    - cascaded, recombination etc
-  - tritium breeding
-     -  li for t production
-       - enrichment
-     - be , pb for n,2n
-   - dose
+  - damage per atom
+  - gas production
+</div>
+<div>
+
+  - cascades, recombination
+  - Lithium for tritium breeding
+  - enrichment
+  - neutron multiplication
+  - dose
+</div>
+<div>
 
 ---
 

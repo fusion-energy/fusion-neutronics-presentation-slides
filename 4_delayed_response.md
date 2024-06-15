@@ -58,23 +58,35 @@ style: |
 </style>
 
 
-# Delayed response
 
 ---
 
-- delayed response
+
+# Delayed response
+
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
   - activation
-  - activity vs time (shark fin)
+  - activity build up and decay (shark fin)
   - emission spectra
     - shut down dose
     - waste
   - decay heat vs time
-    - analysis needed to lift or cool components
+
+</div>
+<div>
+
+  - analysis needed to lift or cool components
   - activated coolant
   - impact of burn up
     - TBR
     - shielding
   - pulsed irradiation / constant irradiation
+
+</div>
+<div>
 
 ---
 

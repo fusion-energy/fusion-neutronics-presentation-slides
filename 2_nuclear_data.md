@@ -57,6 +57,8 @@ style: |
   }
 </style>
 
+
+
 # Nuclear data
 
 <div class="columns"  style="font-size: 30px;">
@@ -222,17 +224,40 @@ Q values of fusion fuel reactions
 
 ---
 
-## Microscopic
+## Microscopic Cross Section
 
-Cross section vs energy
+<div class="columns"  style="font-size: 30px;">
+<div>
 
-todo plot cross sections vs energy (Li6, Li7, Be9)
+- Measured in Barns (1 barn = $10^{-28}m^{2}$)
+- Energy dependant
+- Cross section evaluations exist for:
+  - different incident particles
+  - different nuclides
+  - different interactions.
+- Important neutron reactions plotted
+  - Tritium breeding
+  - Neutron multiplication
+
+</div>
+<div>
+
+![](images/important-microscopic-cross-sections.png)
+
+</div>
+<div>
 
 ---
 
 ## Reaction rate equation
 
-RR = density X 
+
+- The reaction rate ($RR$) can be found by knowing the number of neutrons per unit volume ($n$), the velocity of neutrons ($v$), the material density ($p$), Avogadro's number ($N_{a}$), the microscopic cross section at the neutron energy ($\sigma_{e}$) and the atomic weight of the material ($M$).
+- This reduces down to the neutron flux ($\phi$), nuclide number density ($N_{d}$) and microscopic cross section\sigma_{e}.
+- This can be reduced one more stage by making use of the Macroscopic cross section ($\Sigma_{e}$).
+
+
+$$ RR = \frac{nv\rho N_{a}\sigma_{e} }{M} = \phi N_{d} \sigma_{e} = \phi \Sigma_{e} $$
 
 ---
 
@@ -243,7 +268,7 @@ be with density and lead with density
 
 ---
 
-regions of plot
+## Cross section regions
 
 Reactions often have characteristics
  resonance (resolved and unresolved)

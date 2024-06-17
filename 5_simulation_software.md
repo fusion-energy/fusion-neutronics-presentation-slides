@@ -236,10 +236,10 @@ Distribution in the US by RSICC and in the EU by the NEA databank.
 
 
 
-![RSICC](figs/rsicc.png)
+![RSICC](images/rsicc.png)
 [RSICC](http://rsicc.ornl.gov/Default.aspx)
 
-![RSICC](figs/nea.png)
+![RSICC](images/nea.png)
 [NEA databank](https://www.oecd-nea.org/dbcps/)
 
 ---

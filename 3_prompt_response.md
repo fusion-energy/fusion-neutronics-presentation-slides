@@ -192,4 +192,6 @@ TODO plot dose maps for different directions
 TODO plot dose maps for different libraries
 TODO plot dose maps for different particles (photons and neutrons)
 
+![](images/dose.png)
+
 ---

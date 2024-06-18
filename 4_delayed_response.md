@@ -68,77 +68,30 @@ style: |
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-  - activation
-  - activity build up and decay (shark fin)
-  - emission spectra
-    - shut down dose
-    - waste
-  - decay heat vs time
+  - Activation
+  - Activity build up and decay (shark fin)
+  - Emission spectra
+    - Shut down dose
+    - Waste
+  - Decay heat vs time
 
 </div>
 <div>
 
-  - analysis needed to lift or cool components
-  - activated coolant
-  - impact of burn up
+  - Analysis needed to lift or cool components
+  - Activated coolant
+  - Impact of burn up
     - TBR
-    - shielding
-  - pulsed irradiation / constant irradiation
+    - Shielding
+  - Pulsed irradiation / constant irradiation
 
 </div>
 <div>
-
----
-
-# Activation of materials
-
-Neutron induced reactions lead to unstable radioactive products.
-
-<h1>https://www.w3schools.com/graphics/svg_line.asp</h1>
-<html>
-<body>
-
-<div style="width: 100%; text-align: center">
-  <rect width="100" height="100" x="0" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="100" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="200" y="0" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-
-  <rect width="100" height="100" x="0" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="100" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="200" y="100" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-
-  <rect width="100" height="100" x="0" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="100" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  <rect width="100" height="100" x="200" y="200" stroke="darkblue" stroke-width="4" fill="lightgrey" />
-  
-  <text x="5" y="15" fill="red">I love SVG!</text>
-
- <line x1="50" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
-  <line x1="150" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
- <line x1="250" y1="50" x2="150" y2="150" style="stroke:red;stroke-width:2" />
-
- 
- <line x1="50" y1="150" x2="150" y2="150" style="stroke:red;stroke-width:2" />
- <line x1="50" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
-
-  <line x1="250" y1="150" x2="150" y2="150" style="stroke:red;stroke-width:2" />
- <line x1="250" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
- <line x1="150" y1="250" x2="150" y2="150" style="stroke:red;stroke-width:2" />
-
-</div>
- 
-</body>
-</html>
-
-<!-- slide from neutronics workshop isotope chart with arrows -->
-
----
-
-# Build up, saturation and decay
 
 ---
 
 # Activation reactions
+
 
 ![bg 50%](images/reaction-directions.png)
 

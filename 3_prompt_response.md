@@ -94,9 +94,7 @@ style: |
 
 # Neutron wall example
 
-TODO image of plasma
-TODO image of tokamak
-TODO plot of wall loading vs angle
+Note to self draw tokamak with wall loading vs angle
 
 - Significant poloidal variation of neutron wall loading occur in toroidal magnetic confinement fusion reactors
 - Details in model behind the FW not needed for NWL calculation!
@@ -112,18 +110,6 @@ TODO plot of wall loading vs angle
 - Total heating is used for sizing cooling systems
 - Nuclear energy multiplication (Mn) is ratio of energy deposited by neutrons and gamma photons in the reactor to neutron energy incident on FW
 
-TODO making into a table
-Fusion power
-1GW
-
-Neutron power
-0.8GW
-
-Heating deposited
-1.1GW
-
-Neutron multiplication
-1.1
 
 ---
 

@@ -269,6 +269,26 @@ Q values of fusion fuel reactions
 
 ---
 
+## Energy of neutrons from DT fuel
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- A DT plasma has several fusion reactions.
+- DT is the most likely reaction.
+- DD and TT reactions also occur with lower probabilities.
+- All reactions and emit different energy neutrons.
+
+</div>
+<div>
+
+![](images/dd_tt_dt.png)
+
+</div>
+<div>
+
+---
+
 ## Microscopic Cross Section
 
 <div class="columns"  style="font-size: 30px;">
@@ -348,15 +368,52 @@ Reactions have characteristics
 
 ---
 
+## Angular distribution
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- The scattering angle varies depending on the energy of the incident neutron
+- Low energy neutrons have isotropic scattering (even probability in all directions)
+- High energy neutrons are more likely to have a low deflection angle and are forwards bias.
+
+</div>
+<div>
+
+![](images/angle_energy_cross_section.png)
+
+</div>
+<div>
+
+---
+
+## Energy distribution
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- There is also data on neutrons released in reactions such as (n,2n).
+- The (n,2n) reaction is a threshold reaction and requires energy.
+- No run away chain reaction possible.
+
+</div>
+<div>
+
+![](images/angle_energy_be9.png)
+
+</div>
+<div>
+
+---
+
 # Experimental data
 
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-Availability of experimental data varies for different reactions and different isotopes.
+- Availability of experimental data varies for different reactions and different isotopes.
 
-Typically the experimental data is then interpreted to create evaluation libraries, such as ENDF, JEFF, JENDL, CENDL.
-
+- Typically the experimental data is then interpreted to create evaluation libraries, such as ENDF, JEFF, JENDL, CENDL.
 
 
 </div>
@@ -384,3 +441,130 @@ There are several groups that produce and distribute nuclear data
 - CENDL 3.2 🇨🇳 272  neutron
 
 ---
+
+# Path length
+
+<div class="columns">
+<div >
+
+- Path length = 1 / $\Sigma_{T}$
+- A 14MeV neutron will lose energy via scattering interactions
+- As the neutron energy decreases the path length also decreases
+- Path length at thermal energy is more constant
+
+![](images/neutron-scatter.png)
+</div>
+<div>
+
+![](https://s3.amazonaws.com/media-p.slid.es/uploads/1162849/images/9184302/water_path_length.jpg)
+
+</div>
+<div>
+
+
+---
+
+# Energy loss
+
+The average logarithmic energy decrement (or loss) per collision ($\xi$) is related to the atomic mass ($A$) of the nucleus
+
+<div style='text-align: center;'>
+
+$\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
+
+</div>
+
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>Hydrogen</th>
+    <th>Deuterium</th>
+    <th>Beryllium</th>
+    <th>Carbon</th>
+    <th>Uranium</th>
+  </tr>
+  <tr>
+    <td>Mass of nucleus</td>
+    <td>1</td>
+    <td>2</td>
+    <td>9</td>
+    <td>12</td>
+    <td>238</td>
+  </tr>
+  <tr>
+    <td>Energy decrement</td>
+    <td>1</td>
+    <td>0.7261</td>
+    <td>0.2078</td>
+    <td>0.1589</td>
+    <td>0.0084</td>
+  </tr>
+</table>
+
+---
+
+## Why lithium
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- Lithium has a particularly high cross section for tritium production
+- Li6 has a very high cross section at low neutron energies
+- Li7 has a reasonable cross section at high neutron energies
+- Other reaction channels are relativity low
+- Often alloyed with Si or other elements to improve material properties (e.g. flammability)
+
+</div>
+<div>
+
+![](images/all_tritium_multi.png)
+
+* Elements up to Iron plotted
+</div>
+<div>
+
+---
+
+## Why beryllium
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- Beryllium has the lowest threshold energy for any isotope with a n,2n reaction.
+- This means even low energy 3MeV neutrons can undergo (n,2n) reactions.
+- Often alloyed with Ti or other elements to improve material properties (e.g. swelling due to retention)
+- Lead is also a popular choice for a neutron multiplier
+
+</div>
+<div>
+
+![](images/all_neutron_multi.png)
+* Elements up to Iron plotted
+
+</div>
+<div>
+
+---
+
+## Other materials
+
+
+## Tungsten
+
+- High atomic number = good gamma attenuation
+
+- High neutron capture resonances = good neutron attenuation
+
+## Water
+
+- High hydrogen content = excellent neutron moderator
+
+## Helium 4
+
+- Low interaction cross sections and low density = transparent to neutrons and gammas 
+
+
+---
+
+## Neutron spectra through materials
+

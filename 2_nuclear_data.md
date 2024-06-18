@@ -375,12 +375,12 @@ Source [IAEA nuclear data services](https://nds.iaea.org/dataexplorer/?target_el
 
 There are several groups that produce and distribute nuclear data
 
-- TENDL 2023 🇪🇺
-- ENDF/B-VIII.0 🇺🇸
-- FENDL 3.2b 🌐
-- JEFF 3.3 🇪🇺
-- JENDL 5 🇯🇵
-- CENDL 3.2 🇨🇳
-- BROND 3.1 🇷🇺
+- TENDL 2023 🇪🇺 2850 neutron
+- JENDL 5 🇯🇵 795 neutron
+- ENDF/B-VIII.0 🇺🇸 557 neutron
+- JEFF 3.3 🇪🇺 562 neutrons
+- BROND 3.1 🇷🇺 372 neutrons
+- FENDL 3.2b 🌐 191 neutron
+- CENDL 3.2 🇨🇳 272  neutron
 
 ---

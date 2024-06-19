@@ -589,3 +589,24 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
 
 ## Neutron spectra through materials
 
+
+By knowing the materials present can you identify which blanket results in which spectrum
+
+- FLiBe, Molten salt, typically 90% enriched Li6
+- HCPB, helium cooled pebble bed, typically 60% enriched Li6
+- HCLL, helium cooled lithium lead, typically 90% enriched Li6
+- WCCB, Water cooled ceramic breeder, typically 60% enriched Li6
+- WCLL, water cooled lithium lead, typically 90% enriched Li6
+- Liquid Lithium, typically natural enrichment
+
+
+---
+
+
+![bg](images/who-wants-to-be-million-spectra.png)
+
+---
+
+![](images/blanket_spectra_legend.png)
+
+---

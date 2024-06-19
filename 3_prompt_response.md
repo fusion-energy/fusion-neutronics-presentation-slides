@@ -83,12 +83,26 @@ style: |
 
 # Neutron wall loading
 
+<div class="columns"  style="font-size: 30px;">
+<div>
+
 - Energy carried by uncollided source neutrons incident on a unit area of first wall per unit time
 - Units typically used $MW m^{-2}$ 
 - Useful for estimating neutronics results and scaling or comparing results
 - For simple source distributions and geometry, can calculate analytically
 - Complex source distributions or geometries require more sophisticated methods (e.g Monte Carlo)
+
+
+</div>
+<div>
+
+
 ![](scripts/wall-loading.png)
+
+
+</div>
+<div>
+
 
 ---
 
@@ -103,7 +117,7 @@ Note to self draw tokamak with wall loading vs angle
 
 # Nuclear Heating
 
-- Energy deposition calculated from the flux using “Kinetic Energy Released in MAterials” (KERMA) factors (sometimes called heating numbers in XS libs)
+- Energy deposition calculated from the flux using “Kinetic Energy Released in MAterials” (KERMA) factors
 - Energy lost by a neutron from a collision is assumed to be deposited locally
 - Gamma photons produced by neutrons are transported to determine where their energy is deposited (need coupled neutron-photon transport)
 - The power density distribution is used in thermal-hydraulics calculations and subsequent structural analysis (e.g. thermal stress)
@@ -168,16 +182,22 @@ TODO these different materials SiC, steel, Vandium alloy, eurofer
 
 # Instantaneous Dose
 
-Different types of dose, absorbed, equivalent and effective.
-Effective dose is typically used for dose maps.
-Dose coefficients units of $Sv.cm^2$
-neutron flux ($particles.cm{^-2}s^{-1}$)
-resulting dose in Sv per second
+<div class="columns"  style="font-size: 30px;">
+<div>
 
-TODO plot dose maps for different directions
-TODO plot dose maps for different libraries
-TODO plot dose maps for different particles (photons and neutrons)
+- Different types of dose, absorbed, equivalent and effective.
+- Effective dose is typically used for dose maps.
+- Dose coefficients units of $Sv.cm^2$
+- Neutron flux ($particles.cm{^-2}s^{-1}$)
+- Resulting dose in Sv per second
+
+</div>
+<div>
+
 
 ![](images/dose.png)
+
+</div>
+<div>
 
 ---

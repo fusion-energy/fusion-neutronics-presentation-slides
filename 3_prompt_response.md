@@ -63,19 +63,19 @@ style: |
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-  - neutron wall loading
-  - heating
-  - gamma production
-  - damage per atom
-  - gas production
+  - Neutron wall loading
+  - Heating
+  - Gamma production
+  - Damage Per Atom (DPA)
+  - Gas production
 </div>
 <div>
 
-  - cascades, recombination
+  - Cascades, recombination
   - Lithium for tritium breeding
-  - enrichment
-  - neutron multiplication
-  - dose
+  - Enrichment
+  - Neutron multiplication
+  - Dose
 </div>
 <div>
 
@@ -129,13 +129,22 @@ Note to self draw tokamak with wall loading vs angle
 
 # Nuclear Heating depends on material and location
 
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
 - At same location with same neutron flux, nuclear heating depends on material
 - High-Z materials usually yield higher nuclear heating than low-Z materials
 - Gamma heating represents ~85% of nuclear heating in high-Z materials and only ~40% in low-Z materials
 - Nuclear heating drops rapidly as we move away from FW
 
-TODO
-plot of heating vs distance for different materials (H20, Be, Cu, steel)
+</div>
+<div>
+
+![](images/heating_vs_distance.png)
+
+</div>
+<div>
 
 ---
 
@@ -163,6 +172,14 @@ mesh plot of heating for geometry with water pipes
 
 TODO DPA vs energy plot of Iron
 TODO helium production plot in Iron
+
+---
+
+
+# Tritium Breeding Ratio
+
+<iframe src="https://prezi.com/embed/rnzt6pjj-xfu/?bgcolor=ffffff&lock_to_path=0&autoplay=1&autohide_ctrls=1&landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0eWk1QlBaUER3dVArS1hRQTAxNXdDZWNRPT0&landing_sign=ABm-Z3JCWCuKHnLF1Q-0yjuTsqyWAQdv3CEpUjcYcXk" title="W3Schools Free Online Web Tutorials" width="100%" height="100%"></iframe>
+
 
 ---
 

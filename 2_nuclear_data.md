@@ -346,6 +346,27 @@ $$ RR = \frac{nv\rho N_{a}\sigma_{e} }{M} = \phi N_{d} \sigma_{e} = \phi \Sigma_
 
 ---
 
+## Multigroup cross sections
+
+<div class="columns"  style="font-size: 30px;">
+<div>
+
+- Discretize a continuous distribution 
+- Histogram of average cross section in each energy bin
+- Continuous cross section has rules for interpolation that can be accounted for.
+- Groups are not equally spaced.
+- Structures are optimized for different energy ranges (fission, fast fission, fusion etc)
+
+</div>
+<div>
+
+![](images/multi_group_isotope.png)
+
+</div>
+<div>
+
+---
+
 ## Cross section regions
 
 <div class="columns"  style="font-size: 30px;">

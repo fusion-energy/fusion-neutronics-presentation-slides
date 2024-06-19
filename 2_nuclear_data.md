@@ -125,6 +125,9 @@ Target nuclei (incident projectile, resulting fragments) resulting nuclei
 
 ## Neutron induced reactions
 
+<div class="columns"  style="font-size: 30px;">
+<div>
+
  - 999 reactions channels with unique reaction IDs (MT numbers)
  - MT 3 is elastic scattering (n,'n)
  - MT 16 is neutron multiplication (n,2n)
@@ -133,7 +136,15 @@ Target nuclei (incident projectile, resulting fragments) resulting nuclei
  - MT 444 is damage energy
 
  [🔗 ENDF reaction numbers](https://www.oecd-nea.org/dbdata/data/manual-endf/endf102_MT.pdf)
+
+ </div>
+<div>
  
+ ![](images/inelastic.png)
+
+ </div>
+<div>
+
  ---
 
 ## Transmutation reactions
@@ -521,6 +532,9 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
     <td>0.0084</td>
   </tr>
 </table>
+
+![width:150px](images/elastic.png)
+
 
 ---
 

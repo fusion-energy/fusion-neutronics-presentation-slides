@@ -65,16 +65,16 @@ style: |
 
   - Neutron wall loading
   - Heating
-  - Gamma production
-  - Damage Per Atom (DPA)
-  - Gas production
+  <!-- - Gamma production -->
+  <!-- - Damage Per Atom (DPA) -->
+  <!-- - Gas production -->
 </div>
 <div>
 
-  - Cascades, recombination
-  - Lithium for tritium breeding
-  - Enrichment
-  - Neutron multiplication
+  <!-- - Cascades, recombination -->
+  - Tritium breeding
+  <!-- - Enrichment -->
+  <!-- - Neutron multiplication -->
   - Dose
 </div>
 <div>
@@ -108,10 +108,10 @@ style: |
 
 # Neutron wall example
 
-Note to self draw tokamak with wall loading vs angle
-
 - Significant poloidal variation of neutron wall loading occur in toroidal magnetic confinement fusion reactors
-- Details in model behind the FW not needed for NWL calculation!
+
+![width:650px](images/wall-loading.png)
+source http://dx.doi.org/10.13182/FST13-751
 
 ---
 
@@ -146,7 +146,7 @@ Note to self draw tokamak with wall loading vs angle
 </div>
 <div>
 
----
+<!-- ---
 
 # Detailed nuclear heating example
 
@@ -156,11 +156,11 @@ Note to self draw tokamak with wall loading vs angle
 
 TODO
 plot of heating vs distance with steel and water
-mesh plot of heating for geometry with water pipes
+mesh plot of heating for geometry with water pipes -->
 
 ---
 
-# Radiation Damage of Materials
+<!-- # Radiation Damage of Materials
 
 
 - Energetic neutrons produce: 
@@ -171,9 +171,9 @@ mesh plot of heating for geometry with water pipes
 - Damage parameters greatly influenced by neutron energy spectrum
 
 TODO DPA vs energy plot of Iron
-TODO helium production plot in Iron
+TODO helium production plot in Iron -->
 
----
+<!-- --- -->
 
 
 # Tritium Breeding Ratio
@@ -183,7 +183,7 @@ TODO helium production plot in Iron
 
 ---
 
-# He/dpa Ratio For Structural Materials
+<!-- # He/dpa Ratio For Structural Materials
 
 SiC has an order of magnitude higher He/dpa than steel at the FW
 He/dpa for V at the FW is lower with modest gradient
@@ -195,9 +195,11 @@ TODO plot graph of he production vs depth
 TODO plot ratio of dpa to He production
 TODO these different materials SiC, steel, Vandium alloy, eurofer
 
----
+--- -->
+
 
 # Instantaneous Dose
+
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -205,7 +207,7 @@ TODO these different materials SiC, steel, Vandium alloy, eurofer
 - Different types of dose, absorbed, equivalent and effective.
 - Effective dose is typically used for dose maps.
 - Dose coefficients units of $Sv.cm^2$
-- Neutron flux ($particles.cm{^-2}s^{-1}$)
+- Neutron flux ($particles.cm^{-2}s^{-1}$)
 - Resulting dose in Sv per second
 
 </div>

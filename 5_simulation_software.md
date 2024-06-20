@@ -65,9 +65,7 @@ style: |
 
 ---
 
-# Inventory codes
-
-Solving the Bateman equation
+# Inventory codes (Bateman equation)
 
 | Name of software | Group / community / country | 
 |  ----- | -----| 
@@ -155,7 +153,7 @@ CAD to CSG convertors
 
 # Software distribution
 
-Open source codes such as OpenMC and DAGMC are distributed via GitHub, conda.
+Open source codes such as [OpenMC](https://github.com/openmc-dev/openmc) and [DAGMC](https://star-history.com/#openmc-dev/openmc&Date) are distributed via GitHub, conda.
 
 Some codes used in neutronics are controlled codes under export control
 

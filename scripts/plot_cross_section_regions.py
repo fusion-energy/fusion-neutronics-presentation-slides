@@ -1,5 +1,9 @@
 import openmc
+import matplotlib
+font = {'size'   : 14}
+matplotlib.rc('font', **font)
 
+openmc.config["cross_sections"]= "/nuclear_data/cross_sections.xml"
 material = openmc.Material(name='Uranium dioxide')
 
 material.add_element('U', 1.0, percent_type='ao', enrichment=5)
@@ -16,4 +20,4 @@ openmc.plotter.plot_xs(
 )
 plt.title = 'Total cross section'
 
-plt.savefig('cross_section_regions.png', dpi=400)
+plt.savefig('cross_section_regions.png', bbox_inches='tight', dpi=300)

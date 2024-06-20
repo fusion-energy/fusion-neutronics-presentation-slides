@@ -1,5 +1,11 @@
 import openmc
 import matplotlib.pyplot as plt
+import matplotlib
+font = {'size'   : 14}
+matplotlib.rc('font', **font)
+
+
+openmc.config["cross_sections"]= "/nuclear_data/cross_sections.xml"
 
 # we pass in a blank axis as we want to modify it afterwards
 fig, ax = plt.subplots()
@@ -42,4 +48,4 @@ ax.set_yscale('log')
 ax.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.0)
 ax.set_xlim(0, 15)  # set the x axis limits from 0 to 15MeV
 
-plt.savefig('all_tritium_multi.png', bbox_inches='tight', dpi=400)
+plt.savefig('all_tritium_multi.png', bbox_inches='tight', dpi=300)

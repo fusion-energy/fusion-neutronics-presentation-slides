@@ -3,6 +3,10 @@
 import openmc
 import matplotlib.pyplot as plt
 from pprint import pprint
+import matplotlib
+font = {'size'   : 14}
+matplotlib.rc('font', **font)
+import matplotlib.pyplot as plt
 
 # change this path to point to your nuclide of choice
 nuc_path = "/nuclear_data/neutron/Be9.h5"
@@ -39,5 +43,5 @@ plt.xlabel("Outgoing energy [MeV]")
 plt.ylabel("Probability/eV")
 plt.title("Neutron energy distribution of Be9(n,2n) reactions")
 plt.legend()
-plt.savefig("angle_energy_be9.png", bbox_inches="tight", dpi=400)
+plt.savefig("angle_energy_be9.png", bbox_inches="tight", dpi=300)
 print('written angle_energy_be9.png')

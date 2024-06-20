@@ -1,4 +1,9 @@
 import openmc
+import matplotlib
+font = {'size'   : 14}
+matplotlib.rc('font', **font)
+
+openmc.config["cross_sections"]= "/nuclear_data/cross_sections.xml"
 
 material = openmc.Material(name='Li2TiO3')
 
@@ -16,4 +21,4 @@ openmc.plotter.plot_xs(
     energy_axis_units='MeV'
 )
 plt.title = 'Total cross section'
-plt.savefig('macroscopic_cross_sections.png', dpi=400)
+plt.savefig('macroscopic_cross_sections.png', bbox_inches='tight',dpi=300)

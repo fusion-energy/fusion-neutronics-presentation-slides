@@ -3,6 +3,10 @@
 import openmc
 import matplotlib.pyplot as plt
 from pprint import pprint
+import matplotlib
+font = {'size'   : 14}
+matplotlib.rc('font', **font)
+import matplotlib.pyplot as plt
 
 # change this path to point to your nuclide of choice
 nuc_path = "/nuclear_data/neutron/C12.h5"
@@ -40,5 +44,5 @@ plt.xlabel("Cosine of scattering angle")
 plt.ylabel("Probability")
 plt.title("Neutron energy angle distribution of C12")
 plt.legend()
-plt.savefig("angle_energy_cross_section.png", bbox_inches="tight", dpi=400)
+plt.savefig("angle_energy_cross_section.png", bbox_inches="tight", dpi=300)
 print('written angle_energy_cross_section.png')

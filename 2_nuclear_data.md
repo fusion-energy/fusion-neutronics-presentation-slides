@@ -64,28 +64,28 @@ style: |
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-  - reactions
+  - Reactions
   - Isotope chart
-  - transmutation reactions
+  - Transmutation reactions
   - Q values
-  - threshold reactions
-  - fusion fuels (DT,DD ...)
-  - energy distribution from DT
-  - microscopic cross sections
-  - experimental data
-  - libraries (ENDF, TENDL, FENDL ...)
+  - Threshold reactions
+  - Fusion fuels (DT,DD ...)
+  - Energy distribution from DT
+  - Microscopic cross sections
+  - Experimental data
+  - Libraries (ENDF, TENDL, FENDL ...)
 </div>
 <div>
 
-  - cross section regions
-  - multigroup / continuous energy
-  - group structures
-  - reaction rate equation
-  - macroscopic cross sections
-  - scattering / thermalisation
-  - decay data
-  - photons
-  - energy distribution from radioactive material
+  - Cross section regions
+  - Multigroup / continuous energy
+  - Group structures
+  - Reaction rate equation
+  - Macroscopic cross sections
+  - Scattering / thermalisation
+  - Decay data
+  - Photons
+  - Energy distribution from radioactive material
 
   <!-- - energy angle plot
   - energy energy plot

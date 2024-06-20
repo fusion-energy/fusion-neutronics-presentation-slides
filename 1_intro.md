@@ -62,7 +62,7 @@ style: |
 ![Neutron](images/cover.png)
 <!-- ![bottom-right](logo) -->
 
-Slides and scripts to reproduce plots with simulations are available on GitHub
+Slides available on GitHub
 https://github.com/fusion-energy/fusion-neutronics-presentation-slides
 
 ---

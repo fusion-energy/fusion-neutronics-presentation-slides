@@ -62,7 +62,7 @@ style: |
 ![Neutron](images/cover.png)
 <!-- ![bottom-right](logo) -->
 
-Slides and scripts to reproduce plots with simulations are available on GitHub
+Slides available on GitHub
 https://github.com/fusion-energy/fusion-neutronics-presentation-slides
 
 ---
@@ -99,28 +99,28 @@ https://github.com/fusion-energy/fusion-neutronics-presentation-slides
 <div class="columns"  style="font-size: 30px;">
 <div>
 
-  - reactions
+  - Reactions
   - Isotope chart
-  - transmutation reactions
+  - Transmutation reactions
   - Q values
-  - threshold reactions
-  - fusion fuels (DT,DD ...)
-  - energy distribution from DT
-  - microscopic cross sections
-  - experimental data
-  - libraries (ENDF, TENDL, FENDL ...)
+  - Threshold reactions
+  - Fusion fuels (DT,DD ...)
+  - Energy distribution from DT
+  - Microscopic cross sections
+  - Experimental data
+  - Libraries (ENDF, TENDL, FENDL ...)
 </div>
 <div>
 
-  - cross section regions
-  - multigroup / continuous energy
-  - group structures
-  - reaction rate equation
-  - macroscopic cross sections
-  - scattering / thermalisation
-  - decay data
-  - photons
-  - energy distribution from radioactive material
+  - Cross section regions
+  - Multigroup / continuous energy
+  - Group structures
+  - Reaction rate equation
+  - Macroscopic cross sections
+  - Scattering / thermalisation
+  - Decay data
+  - Photons
+  - Energy distribution from radioactive material
 
   <!-- - energy angle plot
   - energy energy plot
@@ -996,9 +996,7 @@ cooling components analysis -->
 
 ---
 
-# Inventory codes
-
-Solving the Bateman equation
+# Inventory codes (Bateman equation)
 
 | Name of software | Group / community / country | 
 |  ----- | -----| 
@@ -1086,7 +1084,7 @@ CAD to CSG convertors
 
 # Software distribution
 
-Open source codes such as OpenMC and DAGMC are distributed via GitHub, conda.
+Open source codes such as [OpenMC](https://github.com/openmc-dev/openmc) and [DAGMC](https://star-history.com/#openmc-dev/openmc&Date) are distributed via GitHub, conda.
 
 Some codes used in neutronics are controlled codes under export control
 

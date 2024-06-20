@@ -69,21 +69,20 @@ style: |
 <div>
 
   - Activation
-  - Activity build up and decay (shark fin)
+  - Activity build up and decay
   - Emission spectra
-    - Shut down dose
-    - Waste
-  - Decay heat vs time
+  - Shut down dose
+    <!-- - Waste -->
+  <!-- - Decay heat vs time -->
 
 </div>
 <div>
 
   - Analysis needed to lift or cool components
-  - Activated coolant
-  - Impact of burn up
-    - TBR
-    - Shielding
-  - Pulsed irradiation / constant irradiation
+  <!-- - Activated coolant -->
+  - Impact of burn up on TBR
+    <!-- - Shielding -->
+  <!-- - Pulsed irradiation / constant irradiation -->
 
 </div>
 <div>
@@ -94,6 +93,43 @@ style: |
 
 
 ![bg 50%](images/reaction-directions.png)
+
+---
+
+
+# Build up and saturation
+
+<div class="columns">
+<div>
+
+<span style="color:green;">
+
+- New isotopes created during irradiation
+
+</span>
+
+<span style="color:orange;">
+
+- Radioactive isotopes decay and will eventually reach a point where decay rate is equal to activation rate.
+
+</span>
+
+<span style="color:red;">
+
+- Decay is more noticeable once the plasma is shutdown.
+
+</span>
+
+- The activity is related to the irradiation time and the nuclide half life.
+
+</div>
+<div>
+
+
+![height:550px](images/activation-cooldown.png)
+
+</div>
+<div>
 
 ---
 
@@ -130,72 +166,59 @@ style: |
 
 ![bg 60%](images/isotope_chart_fission_activation.png)
 
----
-
-# Build up and saturation
-
-<div class="columns">
-<div>
-
-<span style="color:green;">
-
-- New isotopes created during irradiation
-
-</span>
-
-<span style="color:orange;">
-
-- Radioactive isotopes decay and will eventually reach a point where decay rate is equal to activation rate.
-
-</span>
-
-<span style="color:red;">
-
-- Decay is more noticeable once the plasma is shutdown.
-
-</span>
-
-- The activity is related to the irradiation time and the nuclide half life.
-
-</div>
-<div>
-
-
-![height:550px](images/activation-cooldown.png)
-
-</div>
-<div>
-
 
 ---
 
 # Emission during decay
 
-<!-- plot gamma emission spectra as a function of time -->
+
+<div class="columns">
+<div>
+
+- Characteristic gamma energies and intensities emitted
+- Reduces with half life of unstable isotope
+- Problematic sources in fusion Co60
+- Neutrons also emitted by isotopes such as N17 found which is formed by Oxygen irradiation in water
+
+</div>
+<div>
+
+![](images/gamma_spec2.png)
+
+</div>
+<div>
 
 ---
 
 # Shut down dose rate
 
-heating effect on components
-resulting in reduced strength during lifts
+<div class="columns">
+<div>
+
+- Post irradiation gamma and even neutron emission from radioactive isotopes continues.
+- Gamma and neutrons emitted cause dose field that makes human maintenance difficult.
+- This causes components to generate self heating
+- Reduced strength of components due to temperature, lift carefully
+- Activated coolant pumped outside of the bio-shield
+
+
+
+Image source [Eurofusion](https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPBBPR17_17590_submitted.pdf)
+
+</div>
+<div>
+
+![width:450](images/shutdown-dose-rate.png)
+
+</div>
+<div>
 
 ---
 
-# Decay heat vs time
+![bg](images/million-solid.png)
 
-cooling components analysis
+<!-- # Decay heat vs time
 
----
-
-# Activated coolant
-
----
-
-# Burn up
-
----
-
-# Pulsed irradiation and steady state
+cooling components analysis -->
 
 ---

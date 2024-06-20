@@ -60,77 +60,38 @@ style: |
 # Overview of neutronics simulation software
 
 - Inventory codes
-- Radiation transport
-  - Monte Carlo Simulation Codes
-  - Deterministic Simulation Codes
+- Monte Carlo Radiation transport
 - Geometry conversion software
 
 ---
 
-# Inventory codes fundamental equation
-
-Bateman equation
-
-Loss terms
-
-Production terms
-$\lambda$
----
-
-# Categories of Inventory codes
-
-    - solving the matrix exponential
-      - chain
-      - Matrix based ODE
-
-others?
-https://www.sciencedirect.com/science/article/abs/pii/S0920379617305331
-      - time-marching finite-difference method, transmutation trajectory analysis (TTA)
-      - matrix
-        - cram
-
-# Inventory Code Simulations approaches
-
-5 slides available
-
----
-
 # Inventory codes
+
+Solving the Bateman equation
 
 | Name of software | Group / community / country | 
 |  ----- | -----| 
 | ACAB | UNED, Spain | 
 | ALARA | Wisconsin, US | 
 | Aburn | North China Electrical Power | 
-| OpenMC | MIT, ANL and open source community | 
+| OpenMC | MIT, ANL, community | 
 | Origen | LANL, US | 
 | Serpent | VTT, Finland | 
 | Fispact | CCFE / UKAEA | 
 | Fornax | Silver Fir Software, US | 
 
----
-
-# Radiation transport fundamental equation
-
-Boltzman transport equation
 
 ---
 
-# Categories of  Radiation transport codes
+# Radiation transport
 
-- Deterministic
-  - Discretize phase space
-  - Solve large matrix representation of radiation transport equation
-- Stochastic/Monte Carlo
-  - Track individual particle histories through phase space
-  - Random sampling of particle behavior at each event
-  - Accumulate contributions to the mean behavior from each history
+Sampling the Boltzman transport equation
 
----
-
-# Monte Carlo Simulations approach
-
-12 slides available
+- Stochastic / Monte Carlo is most widely used method in fusion
+- Track individual particle histories through phase space
+- Random sampling of particle behavior at each event
+- Accumulate contributions to the mean behavior from each history
+- Variance reduction used to speed up simulation
 
 
 ---
@@ -147,60 +108,15 @@ Boltzman transport equation
 | TopMC | China |
 | TRIPOLI | France |
 | SCONE | Cambridge UK |
+| MC DC | US |
 
 ---
 
-# Deterministic Simulation approach
-
-13 slides available
+# Geometry for Monte Carlo
 
 
-    - solving the matrix exponential
-      - chain
-      - time-marching finite-difference method, transmutation trajectory analysis (TTA)
-      - matrix
-        - cram
-    - example codes
-      - alara
-      - aburn https://www.sciencedirect.com/science/article/abs/pii/S0920379617305331
-      - openmc
-      - origen
-      - etc
-
----
-
-# Deterministic Simulation Codes
-
-| Name of software | Group / community / country | 
-|  ----- | -----| 
-- ATTILA 
-- Denovo 
-- OpenMOC
-- PARTISN 
-
----
-
-# Variance reduction generators
-
-| Name of software | Group / community / country | 
-|  ----- | -----| 
-| ADVANTG
-| CADIS
-| Magic method
-| Random Ray
-
----
-
-# Geometry conversion
-
-![mermaid](figs/cad-toneutronics-routes.png)
-
-[Link to flowchat](https://www.mermaidchart.com/raw/bfea01f7-56e6-4780-9687-0a6c99e58b74?theme=light&version=v0.1&format=svg)
-
----
-
-# Geometry conversion
-
+<div class="columns">
+<div>
 
 CAD to DAGMC convertors
   - cad-to-dagmc
@@ -209,37 +125,54 @@ CAD to DAGMC convertors
   - stellermesh
   - Cubit
 
+![width:190px](images/dagmc_model.png)
+
+</div>
+<div>
+
 CAD to CSG convertors
   - GeoUned
   - McCAD
   - TopMC
 
+![width:350px](https://upload.wikimedia.org/wikipedia/commons/8/8b/Csg_tree.png)
+
+</div>
+<div>
+
+
 ---
 
-# Shut down dose rate
 
-Inventory simulations
-Transport simulation
-  - r2s
-  - d1s
-Pyne, Silverfir
-OpenMC
-  
+# Geometry conversion
+
+[Link to flowchat](https://www.mermaidchart.com/raw/bfea01f7-56e6-4780-9687-0a6c99e58b74?theme=light&version=v0.1&format=svg)
+
+![mermaid](images/cad-toneutronics-routes.png)
+
+
 ---
-
 
 # Software distribution
+
+Open source codes such as OpenMC and DAGMC are distributed via GitHub, conda.
 
 Some codes used in neutronics are controlled codes under export control
 
 Distribution in the US by RSICC and in the EU by the NEA databank.
 
-
-
 ![RSICC](images/rsicc.png)
 [RSICC](http://rsicc.ornl.gov/Default.aspx)
 
-![RSICC](images/nea.png)
-[NEA databank](https://www.oecd-nea.org/dbcps/)
+<!-- ![RSICC](images/nea.png)
+[NEA databank](https://www.oecd-nea.org/dbcps/) -->
+
+---
+
+# Questions
+
+# 📧 mail@jshimwell.com
+# ![width:60](images/github.png) @shimwell
+
 
 ---

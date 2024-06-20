@@ -65,6 +65,14 @@ style: |
 
 ---
 
+![bg](images/blue-screen.png)
+
+---
+
+![bg](images/linux.jpg)
+
+---
+
 # Inventory codes (Bateman equation)
 
 | Name of software | Group / community / country | 

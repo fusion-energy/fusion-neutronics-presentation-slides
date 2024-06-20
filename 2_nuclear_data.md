@@ -123,7 +123,7 @@ Target nuclei (incident projectile, resulting fragments) resulting nuclei
 
 ---
 
-## Neutron induced reactions
+# Neutron induced reactions
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -147,7 +147,7 @@ Target nuclei (incident projectile, resulting fragments) resulting nuclei
 
  ---
 
-## Transmutation reactions
+# Transmutation reactions
 
 Reactions that result in a change of the isotope
 
@@ -183,7 +183,7 @@ Pb208(n,2n)Pb207
 
 ---
 
-## Transmutation of lead to gold
+# Transmutation of lead to gold
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -212,7 +212,7 @@ Pb208(n,2n)Pb207
 
 ---
 
-## Q values
+# Q values
 
 Amount of energy absorbed (-ve) or release (+ve) during the nuclear reaction
 
@@ -229,7 +229,7 @@ Online Q value calculator at [NNDC](https://www.nndc.bnl.gov/qcalc/)
 
 ---
 
-## Fusion fuels
+# Fusion fuels
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -253,7 +253,7 @@ Q values of fusion fuel reactions
 
 ---
 
-## Aneutronic Fusion fuels 
+# Aneutronic Fusion fuels 
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -280,7 +280,7 @@ Q values of fusion fuel reactions
 
 ---
 
-## Energy of neutrons from DT fuel
+# Energy of neutrons from DT fuel
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -300,7 +300,7 @@ Q values of fusion fuel reactions
 
 ---
 
-## Microscopic Cross Section
+# Microscopic Cross Section
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -325,7 +325,7 @@ Q values of fusion fuel reactions
 
 ---
 
-## Reaction rate equation
+# Reaction rate equation
 
 
 - The reaction rate ($RR$) can be found by knowing the number of neutrons per unit volume ($n$), the velocity of neutrons ($v$), the material density ($p$), Avogadro's number ($N_{a}$), the microscopic cross section at the neutron energy ($\sigma_{e}$) and the atomic weight of the material ($M$).
@@ -337,7 +337,7 @@ $$ RR = \frac{nv\rho N_{a}\sigma_{e} }{M} = \phi N_{d} \sigma_{e} = \phi \Sigma_
 
 ---
 
-## Macroscopic cross section
+# Macroscopic cross section
 
 
 <div class="columns"  style="font-size: 30px;">
@@ -357,7 +357,7 @@ $$ RR = \frac{nv\rho N_{a}\sigma_{e} }{M} = \phi N_{d} \sigma_{e} = \phi \Sigma_
 
 ---
 
-## Multigroup cross sections
+# Multigroup cross sections
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -378,7 +378,7 @@ $$ RR = \frac{nv\rho N_{a}\sigma_{e} }{M} = \phi N_{d} \sigma_{e} = \phi \Sigma_
 
 ---
 
-## Cross section regions
+# Cross section regions
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -419,7 +419,7 @@ Reactions have characteristics
 
 ---
 
-## Energy distribution
+# Energy distribution
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -460,7 +460,7 @@ Source [IAEA nuclear data services](https://nds.iaea.org/dataexplorer/?target_el
 
 ---
 
-## Nuclear data libraries
+# Nuclear data libraries
 
 There are several groups that produce and distribute nuclear data
 
@@ -538,7 +538,7 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
 
 ---
 
-## Why lithium
+# Why lithium
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -560,7 +560,7 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
 
 ---
 
-## Why beryllium
+# Why beryllium
 
 <div class="columns"  style="font-size: 30px;">
 <div>
@@ -581,7 +581,7 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
 
 ---
 
-## Other materials
+# Other materials
 
 
 ## Tungsten
@@ -601,7 +601,7 @@ $\xi = 1+ \frac{(A-1)^2}{2A} ln \frac{(A-1)}{(A+1)}$
 
 ---
 
-## Neutron spectra through materials
+# Neutron spectra through materials
 
 
 By knowing the materials present can you identify which blanket results in which spectrum
